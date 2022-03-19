@@ -17,7 +17,7 @@
 
 ### why
 
-- separation of concern
+- separation of concern (view / logic)
 
 ### how
 
