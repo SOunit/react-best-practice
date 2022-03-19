@@ -21,5 +21,5 @@
 
 ### how
 
-- presentation / container approach
+- presentation / container approach (old approach before hook)
 - hook approach
