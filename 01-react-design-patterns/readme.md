@@ -44,3 +44,39 @@ https://webbibouroku.com/Blog/Article/redux-ducks
 - presentation for only appearance
 - container for logic
 - no state in react
+
+# css design
+
+- following BEM and SCSS best practice is good approach
+
+# component design
+
+- generally, smaller component is better for reuse
+- atomic design like approach is good
+
+## atoms
+
+- minimum unit, no more separation
+- one responsibility
+- wrapper components are categorized as atoms (column-component etc.)
+- abstract component
+
+## molecules
+
+- atoms +a(LabeledInput etc.)
+- concern only inside component
+- combination of atoms
+- abstract component(ListItem component is not abstract)
+
+## organisms
+
+- connect to redux
+- container component for logic
+- presentation component for view
+
+# summary
+
+- re-ducks is the best for redux
+- separation of logic from view
+- css depends on react project or not
+- atomic separation is too much for most of project?
