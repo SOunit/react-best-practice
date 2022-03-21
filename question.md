@@ -26,7 +26,7 @@
 - UserPage は User を import する
 - UserPage は User に依存してもよい = UserPage は User を import してもよい
 
-## 参考 URL
+### 参考 URL
 
 https://naruport.com/blog/2020/2/10/programming-dependency/
 
