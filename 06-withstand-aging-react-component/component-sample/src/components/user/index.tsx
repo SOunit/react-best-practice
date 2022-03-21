@@ -34,7 +34,7 @@ const StyledComponent = styled(Component)`
 
 // 5. container layer
 // - stateful
-export const Container: FC<ContainerProps> = (props) => {
+const Container: FC<ContainerProps> = (props) => {
   const [flag, setFlag] = useState(false);
   const handleClick = () => {
     setFlag((prevState) => !prevState);
@@ -42,3 +42,5 @@ export const Container: FC<ContainerProps> = (props) => {
 
   return <StyledComponent {...props} flag={flag} handleClick={handleClick} />;
 };
+
+export default Container;
