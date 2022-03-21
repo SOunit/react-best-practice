@@ -2,17 +2,29 @@
 
 ## A は B に依存している
 
+### 依存 1
+
 - A は B の影響を受ける
 - B に変更があれば、A も変更する
-- A は B を import する
 - 依存元は A, 依存先は B
+
+### 依存 2
+
+- A は B を import する
+- A は B に依存してもよい = A は B を import してもよい
 
 ## UserPage は User に依存している
 
+### 依存 1
+
 - UserPage は User の変更の影響を受ける
 - User に変更があれば、UserPage も変更する
-- UserPage は User を import する
 - 依存元は UserPage, 依存先は User
+
+### 依存 2
+
+- UserPage は User を import する
+- UserPage は User に依存してもよい = UserPage は User を import してもよい
 
 ## 参考 URL
 
