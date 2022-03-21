@@ -1,6 +1,7 @@
 # page url
 
-https://speakerdeck.com/dragontaro/reactfalseji-chu-toshe-ji-patan
+- react の基礎と設計パターン
+  https://speakerdeck.com/dragontaro/reactfalseji-chu-toshe-ji-patan
 
 # github url
 
